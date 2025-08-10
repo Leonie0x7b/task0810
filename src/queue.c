@@ -27,7 +27,7 @@ bool joinQueue(queue *q,int val){
         return 0;
     }
     q->data[q->Rear]=val;
-    q->Rear=(q->Rear+1)%QUEENMAXN;
+    q->Rear=(q->Rear+1)%QUEENMAXN;//To prevent exceeding the reference length, so use %
     return 1;
 }
 
