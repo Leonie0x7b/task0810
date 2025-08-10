@@ -1,0 +1,10 @@
+^D:\AROBOTICSTEAMTRAINING\8.10\CMAKELISTS.TXT
+setlocal
+D:\Software\CMake\bin\cmake.exe -SD:/aRoboticsTeamTraining/8.10 -BD:/aRoboticsTeamTraining/8.10/build --check-stamp-file D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
