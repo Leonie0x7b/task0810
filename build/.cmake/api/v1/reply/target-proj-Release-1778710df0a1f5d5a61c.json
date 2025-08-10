@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD"
 				}
 			],
 			"includes" : 
@@ -76,11 +76,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"fragment" : "/INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{

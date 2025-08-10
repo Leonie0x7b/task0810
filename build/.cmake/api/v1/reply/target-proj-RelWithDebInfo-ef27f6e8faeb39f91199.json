@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MinSizeRel/proj.exe"
+			"path" : "RelWithDebInfo/proj.exe"
 		},
 		{
-			"path" : "MinSizeRel/proj.pdb"
+			"path" : "RelWithDebInfo/proj.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob1 /DNDEBUG -MD -Zi"
 				}
 			],
 			"includes" : 
@@ -76,11 +76,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob1 /DNDEBUG -MD -Zi",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"fragment" : "/debug /INCREMENTAL",
 				"role" : "flags"
 			},
 			{

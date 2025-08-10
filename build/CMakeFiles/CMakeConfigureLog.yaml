@@ -1474,3 +1474,1522 @@ events:
       Microsoft (R) Incremental Linker Version 14.38.33133.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/"
+    found: "D:/Software/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/"
+    found: "D:/Software/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      \xca\xca\xd3\xc3\xd3\xda .NET Framework MSBuild \xb0汾 17.8.3+195e7f5a3
+      \xc9\xfa\xb3\xc9\xc6\xf4\xb6\xafʱ\xbc\xe4Ϊ 2025/8/10 20:28:02\xa1\xa3
+      
+      \xbdڵ\xe3 1 \xc9ϵ\xc4\xcf\xeeĿ\xa1\xb0D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj\xa1\xb1(Ĭ\xc8\xcfĿ\xb1\xea)\xa1\xa3
+      PrepareForBuild:
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8Ŀ¼\xa1\xb0Debug\\\xa1\xb1\xa1\xa3
+        \xd2\xd1\xc6\xf4\xd3ýṹ\xbb\xaf\xca\xe4\xb3\xf6\xa1\xa3\xb1\xe0\xd2\xeb\xc6\xf7\xd5\xef\xb6ϵĸ\xf1ʽ\xc9\xe8\xd6ý\xab\xb7\xb4ӳ\xb4\xed\xce\xf3\xb2\xe3\xb4νṹ\xa1\xa3\xd3й\xd8\xcf\xeaϸ\xd0\xc5Ϣ\xa3\xac\xc7\xeb\xb2\xce\xd4\xc4 https://aka.ms/cpp/structured-output\xa1\xa3
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8Ŀ¼\xa1\xb0Debug\\CompilerIdC.tlog\\\xa1\xb1\xa1\xa3
+      InitializeBuildStatus:
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8\xa1\xb0Debug\\CompilerIdC.tlog\\unsuccessfulbuild\xa1\xb1\xa3\xac\xd2\xf2Ϊ\xd2\xd1ָ\xb6\xa8\xa1\xb0AlwaysCreate\xa1\xb1\xa1\xa3
+        \xd5\xfd\xd4ڶԡ\xb0Debug\\CompilerIdC.tlog\\unsuccessfulbuild\xa1\xb1ִ\xd0\xd0 Touch \xc8\xce\xce\xf1\xa1\xa3
+      ClCompile:
+        D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        \xd5\xfd\xd4\xdaɾ\xb3\xfd\xceļ\xfe\xa1\xb0Debug\\CompilerIdC.tlog\\unsuccessfulbuild\xa1\xb1\xa1\xa3
+        \xd5\xfd\xd4ڶԡ\xb0Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate\xa1\xb1ִ\xd0\xd0 Touch \xc8\xce\xce\xf1\xa1\xa3
+      \xd2\xd1\xcd\xea\xb3\xc9\xc9\xfa\xb3\xc9\xcf\xeeĿ\xa1\xb0D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj\xa1\xb1(Ĭ\xc8\xcfĿ\xb1\xea)\xb5Ĳ\xd9\xd7\xf7\xa1\xa3
+      
+      \xd2ѳɹ\xa6\xc9\xfa\xb3ɡ\xa3
+          0 \xb8\xf6\xbe\xaf\xb8\xe6
+          0 \xb8\xf6\xb4\xed\xce\xf3
+      
+      \xd2\xd1\xd3\xc3ʱ\xbc\xe4 00:01:03.57
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/4.1.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "D:/Bandizip/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/ProgramData/anaconda3/"
+      - "D:/ProgramData/anaconda3/Scripts/"
+      - "D:/Program Files/Git/cmd/"
+      - "D:/Software/Mingw/mingw64/bin/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/"
+      - "D:/Software/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "D:/Bandizip/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/ProgramData/anaconda3/"
+      - "D:/ProgramData/anaconda3/Scripts/"
+      - "D:/Program Files/Git/cmd/"
+      - "D:/Software/Mingw/mingw64/bin/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/"
+      - "D:/Software/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.com"
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.exe"
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "D:/Bandizip/lld-link.com"
+      - "D:/Bandizip/lld-link.exe"
+      - "D:/Bandizip/lld-link"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/PuTTY/lld-link.com"
+      - "D:/PuTTY/lld-link.exe"
+      - "D:/PuTTY/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "D:/ProgramData/anaconda3/lld-link.com"
+      - "D:/ProgramData/anaconda3/lld-link.exe"
+      - "D:/ProgramData/anaconda3/lld-link"
+      - "D:/ProgramData/anaconda3/Scripts/lld-link.com"
+      - "D:/ProgramData/anaconda3/Scripts/lld-link.exe"
+      - "D:/ProgramData/anaconda3/Scripts/lld-link"
+      - "D:/Program Files/Git/cmd/lld-link.com"
+      - "D:/Program Files/Git/cmd/lld-link.exe"
+      - "D:/Program Files/Git/cmd/lld-link"
+      - "D:/Software/Mingw/mingw64/bin/lld-link.com"
+      - "D:/Software/Mingw/mingw64/bin/lld-link.exe"
+      - "D:/Software/Mingw/mingw64/bin/lld-link"
+      - "D:/Software/CMake/bin/lld-link.com"
+      - "D:/Software/CMake/bin/lld-link.exe"
+      - "D:/Software/CMake/bin/lld-link"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/lld-link.com"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/lld-link.exe"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/lld-link"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Software/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "D:/Bandizip/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/ProgramData/anaconda3/"
+      - "D:/ProgramData/anaconda3/Scripts/"
+      - "D:/Program Files/Git/cmd/"
+      - "D:/Software/Mingw/mingw64/bin/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/"
+      - "D:/Software/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "D:/Bandizip/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/ProgramData/anaconda3/"
+      - "D:/ProgramData/anaconda3/Scripts/"
+      - "D:/Program Files/Git/cmd/"
+      - "D:/Software/Mingw/mingw64/bin/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/"
+      - "D:/Software/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.com"
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.exe"
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "D:/Bandizip/mt.com"
+      - "D:/Bandizip/mt.exe"
+      - "D:/Bandizip/mt"
+      - "C:/Program Files/MATLAB/R2023a/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2023a/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2023a/bin/mt"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "D:/PuTTY/mt.com"
+      - "D:/PuTTY/mt.exe"
+      - "D:/PuTTY/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "D:/ProgramData/anaconda3/mt.com"
+      - "D:/ProgramData/anaconda3/mt.exe"
+      - "D:/ProgramData/anaconda3/mt"
+      - "D:/ProgramData/anaconda3/Scripts/mt.com"
+      - "D:/ProgramData/anaconda3/Scripts/mt.exe"
+      - "D:/ProgramData/anaconda3/Scripts/mt"
+      - "D:/Program Files/Git/cmd/mt.com"
+      - "D:/Program Files/Git/cmd/mt.exe"
+      - "D:/Program Files/Git/cmd/mt"
+      - "D:/Software/Mingw/mingw64/bin/mt.com"
+      - "D:/Software/Mingw/mingw64/bin/mt.exe"
+      - "D:/Software/Mingw/mingw64/bin/mt"
+      - "D:/Software/CMake/bin/mt.com"
+      - "D:/Software/CMake/bin/mt.exe"
+      - "D:/Software/CMake/bin/mt"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/mt.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/mt.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/mt"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/mt.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/mt.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/mt"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/mt.com"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/mt.exe"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/mt"
+      - "D:/Software/Microsoft VS Code/bin/mt.com"
+      - "D:/Software/Microsoft VS Code/bin/mt.exe"
+      - "D:/Software/Microsoft VS Code/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "D:/Bandizip/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/ProgramData/anaconda3/"
+      - "D:/ProgramData/anaconda3/Scripts/"
+      - "D:/Program Files/Git/cmd/"
+      - "D:/Software/Mingw/mingw64/bin/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/"
+      - "D:/Software/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.com"
+    found: "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/"
+    found: "D:/Software/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      \xca\xca\xd3\xc3\xd3\xda .NET Framework MSBuild \xb0汾 17.8.3+195e7f5a3
+      \xc9\xfa\xb3\xc9\xc6\xf4\xb6\xafʱ\xbc\xe4Ϊ 2025/8/10 20:29:46\xa1\xa3
+      
+      \xbdڵ\xe3 1 \xc9ϵ\xc4\xcf\xeeĿ\xa1\xb0D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj\xa1\xb1(Ĭ\xc8\xcfĿ\xb1\xea)\xa1\xa3
+      PrepareForBuild:
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8Ŀ¼\xa1\xb0Debug\\\xa1\xb1\xa1\xa3
+        \xd2\xd1\xc6\xf4\xd3ýṹ\xbb\xaf\xca\xe4\xb3\xf6\xa1\xa3\xb1\xe0\xd2\xeb\xc6\xf7\xd5\xef\xb6ϵĸ\xf1ʽ\xc9\xe8\xd6ý\xab\xb7\xb4ӳ\xb4\xed\xce\xf3\xb2\xe3\xb4νṹ\xa1\xa3\xd3й\xd8\xcf\xeaϸ\xd0\xc5Ϣ\xa3\xac\xc7\xeb\xb2\xce\xd4\xc4 https://aka.ms/cpp/structured-output\xa1\xa3
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8Ŀ¼\xa1\xb0Debug\\CompilerIdCXX.tlog\\\xa1\xb1\xa1\xa3
+      InitializeBuildStatus:
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8\xa1\xb0Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild\xa1\xb1\xa3\xac\xd2\xf2Ϊ\xd2\xd1ָ\xb6\xa8\xa1\xb0AlwaysCreate\xa1\xb1\xa1\xa3
+        \xd5\xfd\xd4ڶԡ\xb0Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild\xa1\xb1ִ\xd0\xd0 Touch \xc8\xce\xce\xf1\xa1\xa3
+      ClCompile:
+        D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        \xd5\xfd\xd4\xdaɾ\xb3\xfd\xceļ\xfe\xa1\xb0Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild\xa1\xb1\xa1\xa3
+        \xd5\xfd\xd4ڶԡ\xb0Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate\xa1\xb1ִ\xd0\xd0 Touch \xc8\xce\xce\xf1\xa1\xa3
+      \xd2\xd1\xcd\xea\xb3\xc9\xc9\xfa\xb3\xc9\xcf\xeeĿ\xa1\xb0D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj\xa1\xb1(Ĭ\xc8\xcfĿ\xb1\xea)\xb5Ĳ\xd9\xd7\xf7\xa1\xa3
+      
+      \xd2ѳɹ\xa6\xc9\xfa\xb3ɡ\xa3
+          0 \xb8\xf6\xbe\xaf\xb8\xe6
+          0 \xb8\xf6\xb4\xed\xce\xf3
+      
+      \xd2\xd1\xd3\xc3ʱ\xbc\xe4 00:01:04.81
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/4.1.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "D:/Bandizip/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/ProgramData/anaconda3/"
+      - "D:/ProgramData/anaconda3/Scripts/"
+      - "D:/Program Files/Git/cmd/"
+      - "D:/Software/Mingw/mingw64/bin/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/"
+      - "D:/Software/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.com"
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.exe"
+      - "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "D:/Bandizip/lld-link.com"
+      - "D:/Bandizip/lld-link.exe"
+      - "D:/Bandizip/lld-link"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/PuTTY/lld-link.com"
+      - "D:/PuTTY/lld-link.exe"
+      - "D:/PuTTY/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "D:/ProgramData/anaconda3/lld-link.com"
+      - "D:/ProgramData/anaconda3/lld-link.exe"
+      - "D:/ProgramData/anaconda3/lld-link"
+      - "D:/ProgramData/anaconda3/Scripts/lld-link.com"
+      - "D:/ProgramData/anaconda3/Scripts/lld-link.exe"
+      - "D:/ProgramData/anaconda3/Scripts/lld-link"
+      - "D:/Program Files/Git/cmd/lld-link.com"
+      - "D:/Program Files/Git/cmd/lld-link.exe"
+      - "D:/Program Files/Git/cmd/lld-link"
+      - "D:/Software/Mingw/mingw64/bin/lld-link.com"
+      - "D:/Software/Mingw/mingw64/bin/lld-link.exe"
+      - "D:/Software/Mingw/mingw64/bin/lld-link"
+      - "D:/Software/CMake/bin/lld-link.com"
+      - "D:/Software/CMake/bin/lld-link.exe"
+      - "D:/Software/CMake/bin/lld-link"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/lld-link.com"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/lld-link.exe"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/lld-link"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Software/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "D:/Bandizip/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/ProgramData/anaconda3/"
+      - "D:/ProgramData/anaconda3/Scripts/"
+      - "D:/Program Files/Git/cmd/"
+      - "D:/Software/Mingw/mingw64/bin/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Software/CMake/bin/"
+      - "D:/Software/CMake/sbin/"
+      - "D:/Software/CMake/"
+      - "C:/Program Files (x86)/proj/bin/"
+      - "C:/Program Files (x86)/proj/sbin/"
+      - "C:/Program Files (x86)/proj/"
+    searched_directories:
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "D:/Bandizip/rc.com"
+      - "D:/Bandizip/rc.exe"
+      - "D:/Bandizip/rc"
+      - "C:/Program Files/MATLAB/R2023a/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2023a/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2023a/bin/rc"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "D:/PuTTY/rc.com"
+      - "D:/PuTTY/rc.exe"
+      - "D:/PuTTY/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "D:/ProgramData/anaconda3/rc.com"
+      - "D:/ProgramData/anaconda3/rc.exe"
+      - "D:/ProgramData/anaconda3/rc"
+      - "D:/ProgramData/anaconda3/Scripts/rc.com"
+      - "D:/ProgramData/anaconda3/Scripts/rc.exe"
+      - "D:/ProgramData/anaconda3/Scripts/rc"
+      - "D:/Program Files/Git/cmd/rc.com"
+      - "D:/Program Files/Git/cmd/rc.exe"
+      - "D:/Program Files/Git/cmd/rc"
+      - "D:/Software/Mingw/mingw64/bin/rc.com"
+      - "D:/Software/Mingw/mingw64/bin/rc.exe"
+      - "D:/Software/Mingw/mingw64/bin/rc"
+      - "D:/Software/CMake/bin/rc.com"
+      - "D:/Software/CMake/bin/rc.exe"
+      - "D:/Software/CMake/bin/rc"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/rc.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/rc.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Scripts/rc"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/rc.com"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/rc.exe"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/rc"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/rc.com"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/rc.exe"
+      - "D:/pycharm/PyCharm Community Edition 2023.2.2/bin/rc"
+      - "D:/Software/Microsoft VS Code/bin/rc.com"
+      - "D:/Software/Microsoft VS Code/bin/rc.exe"
+      - "D:/Software/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/Software/CMake/bin/rc.com"
+      - "D:/Software/CMake/bin/rc.exe"
+      - "D:/Software/CMake/bin/rc"
+      - "D:/Software/CMake/sbin/rc.com"
+      - "D:/Software/CMake/sbin/rc.exe"
+      - "D:/Software/CMake/sbin/rc"
+      - "D:/Software/CMake/rc.com"
+      - "D:/Software/CMake/rc.exe"
+      - "D:/Software/CMake/rc"
+      - "C:/Program Files (x86)/proj/bin/rc.com"
+      - "C:/Program Files (x86)/proj/bin/rc.exe"
+      - "C:/Program Files (x86)/proj/bin/rc"
+      - "C:/Program Files (x86)/proj/sbin/rc.com"
+      - "C:/Program Files (x86)/proj/sbin/rc.exe"
+      - "C:/Program Files (x86)/proj/sbin/rc"
+      - "C:/Program Files (x86)/proj/rc.com"
+      - "C:/Program Files (x86)/proj/rc.exe"
+      - "C:/Program Files (x86)/proj/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "D:\\Bandizip\\"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\ProgramData\\anaconda3"
+        - "D:\\ProgramData\\anaconda3\\Scripts"
+        - "D:\\Program Files\\Git\\cmd"
+        - "D:\\Software\\Mingw\\mingw64\\bin"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\pycharm\\PyCharm Community Edition 2023.2.2\\bin"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/proj"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Software/CMake"
+        - "C:/Program Files (x86)/proj"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-qtppbo"
+      binary: "D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-qtppbo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-qtppbo'
+        
+        Run Build Command(s): D:/visual_studio/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61230.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.8.3+195e7f5a3
+        生成启动时间为 2025/8/10 20:30:52。
+        
+        节点 1 上的项目“D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtppbo\\cmTC_61230.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_61230.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtppbo\\Debug\\”。
+          正在创建目录“cmTC_61230.dir\\Debug\\cmTC_61230.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_61230.dir\\Debug\\cmTC_61230.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_61230.dir\\Debug\\cmTC_61230.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_61230.dir\\Debug\\\\" /Fd"cmTC_61230.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.38.33133 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_61230.dir\\Debug\\\\" /Fd"cmTC_61230.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtppbo\\Debug\\cmTC_61230.exe" /INCREMENTAL /ILK:"cmTC_61230.dir\\Debug\\cmTC_61230.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-qtppbo/Debug/cmTC_61230.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-qtppbo/Debug/cmTC_61230.lib" /MACHINE:X64 cmTC_61230.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_61230.vcxproj -> D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtppbo\\Debug\\cmTC_61230.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_61230.dir\\Debug\\cmTC_61230.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_61230.dir\\Debug\\cmTC_61230.tlog\\cmTC_61230.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtppbo\\cmTC_61230.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:04.39
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33133.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-pa9sld"
+      binary: "D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-pa9sld"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-pa9sld'
+        
+        Run Build Command(s): D:/visual_studio/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d81eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.8.3+195e7f5a3
+        生成启动时间为 2025/8/10 20:30:57。
+        
+        节点 1 上的项目“D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pa9sld\\cmTC_d81eb.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d81eb.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pa9sld\\Debug\\”。
+          正在创建目录“cmTC_d81eb.dir\\Debug\\cmTC_d81eb.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d81eb.dir\\Debug\\cmTC_d81eb.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_d81eb.dir\\Debug\\cmTC_d81eb.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d81eb.dir\\Debug\\\\" /Fd"cmTC_d81eb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.38.33133 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d81eb.dir\\Debug\\\\" /Fd"cmTC_d81eb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\visual_studio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pa9sld\\Debug\\cmTC_d81eb.exe" /INCREMENTAL /ILK:"cmTC_d81eb.dir\\Debug\\cmTC_d81eb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-pa9sld/Debug/cmTC_d81eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/aRoboticsTeamTraining/8.10/build/CMakeFiles/CMakeScratch/TryCompile-pa9sld/Debug/cmTC_d81eb.lib" /MACHINE:X64 cmTC_d81eb.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d81eb.vcxproj -> D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pa9sld\\Debug\\cmTC_d81eb.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d81eb.dir\\Debug\\cmTC_d81eb.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d81eb.dir\\Debug\\cmTC_d81eb.tlog\\cmTC_d81eb.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\aRoboticsTeamTraining\\8.10\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pa9sld\\cmTC_d81eb.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:04.55
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/visual_studio/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33133.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
